@@ -1,0 +1,231 @@
+.btn{
+    padding: 8px 22px;
+   background-color: blue;
+    border-radius: 5rem;
+    
+}
+.btn:hover{
+   background-color: #3492fd;
+}
+.nav-item a
+{
+    color: yellow;
+}
+.icon{
+    padding: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff !important;
+    border-radius: 50px;
+    border: 1px dashed var(--primary) !important;
+}
+.cat-item div{
+    background: #ffffff;
+    border: 1px solid dashed rgb(0, 185,142,0.3);
+    transition: 0.5s;
+}
+
+.cat-item:div*{
+    transition: 0.5s;
+
+}
+.cat-item:hover div *{
+    color:maroon!important;
+}
+/* property List */
+.nav-pills .nav-item .btn{
+    color: var(--dark);
+}
+.nav-pills .nav-item .btn:hover,
+.nav-pills .nav-item .btn:active{
+    color: #ffffff;
+
+}
+.property-item {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0,0.08);
+}
+.property-item img{
+    transition: 0.5s;
+
+}
+.property-item:hover img{
+   transform: scale(1.1);
+}
+.property-item.border-top{
+    border-top: 1px dashed rgba(0, 185,142, 0.3);
+}
+
+
+/* team */
+.team-item{
+    box-shadow: 0 0 45px rgba(0,0,0,0.08);
+}
+.team-item img{
+    transition: 0.5s;
+
+}
+.team-item:hover img{
+    transform: scale(1.1);
+}
+.team-item .btn{
+    background: yellowgreen;
+    color: var(--primary);
+    border-bottom: 20px;
+    border-bottom:1px solid var(--primary) ;
+
+}
+.team-item .btn:hover{
+    background: var(--primary);
+    color: #ffffff;
+}
+
+.testimonial-section{
+    background-color: #ffffff;
+    padding: 80px 0;
+    min-height: 100vh;
+}
+.testi-img .img-box{
+  
+    max-width: 360px;
+    margin:auto;
+    text-align: center;
+    position: relative;
+}
+.testi-img  .circle{
+    height: 360px;
+    width: 360px;
+    /* background-color: #fb9c9a; */
+    background-color: black;
+    position:absolute;
+    border-radius: 50%;
+    left: 0;
+    bottom:0;
+}
+.testi-img .img-box-inner{
+
+    position: relative;
+   
+    border-radius: 0 0 180px 180px;
+    overflow: hidden;
+}
+.testi-img .img-box-inner img{
+    max-width: 300px;
+    margin-top: 200px;
+}
+.testimonial-section .carousel-inner{
+    margin-bottom: 20px;
+}
+.testimonial-section .carousel-control-next,
+.testimonial-section .carousel-control-prev{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: #fb9c9a;
+    display: inline-flex;
+    border-radius: 50%;
+}
+.testimonial-section .carousel-control-next img,
+.testimonial-section .carousel-control-prev img{
+    width: 15px;
+}
+.testimonial-section .carousel-control-prev{
+    margin-right: 10px;
+}
+.testimonial-section .carousel-inner{
+    margin-bottom: 20px;
+}
+.navbar .navbar-brand {
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.uparrow{
+    margin: 1rem,2rem;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aqua;
+    
+}
+
+@media (max-width:976px){
+    .row img{
+        
+      width: 70%;
+      margin-bottom: 10px;
+      
+     }
+}
+
+
+@media (max-width:976px){
+    .enquiry .btn{
+        
+   margin-top: 40px;
+      
+     }
+}
+
+
+
+@media (max-width:976px){
+   
+}
+.carousel-inner p{
+    margin-top: 100px;
+}
+
+
+
+.single-box .nav-link:hover{
+    transform: 0.5s;
+    background-color: aqua;
+
+
+}
+.properties{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+}
+.navbar{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+
+}
+
+
+
+.rounded{
+    transition: 0.5s;
+
+}
+.rounded:hover img{
+   transform: scale(1.1);
+}
+
+@media (max-width:976px){
+   .about img {
+    width: 100%;
+   
+   
+    }
+}
+
